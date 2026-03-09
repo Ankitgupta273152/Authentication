@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const server = "http://localhost:5000";
+const server = "https://authentication-backend-oamm.onrender.com";
 
 const getCookie = (name) => {
   const value = `; ${document.cookie}`;
@@ -117,3 +117,4 @@ api.interceptors.response.use(
 );
 
 export default api;
+
